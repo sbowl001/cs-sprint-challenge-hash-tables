@@ -4,9 +4,12 @@ def has_negatives(a):
     """
     # Your code here
 
-    cache = {} 
+    # try 1
+
+    # cache = {} 
 
     # positive_numbers = list(filter(lambda x: x > 0, a))
+    # print(positive_numbers)
 
     # for x in a: 
     #     if -x in positive_numbers:
@@ -16,6 +19,8 @@ def has_negatives(a):
     # return list(cache)
 
     # try 2 
+
+    cache = {} 
     positive_numbers = [] 
 
     for x in a: 
